@@ -1,0 +1,139 @@
+    //header one styling
+    .iron-header-v2 {
+        box-shadow: $box-shadow !important;
+        background-color: $primary;
+        .iron-app-logo {
+            padding: 8px 0;
+        }
+        .iron-header-bottom {
+            background-color: $base;
+        }
+        .iron-header-menu {
+            li {
+                padding: 0;
+                a {
+                    color: $dark;
+                }
+                .sub-menu {
+                    li {
+                        a {
+                            color: $dark;
+                        }
+                    }
+                }
+            }
+        }
+        .badge-active span {
+            width: 1.125rem;
+            height: 1.125rem;
+            min-width: 1.125rem;
+            min-height: 1.125rem;
+            top: -7px;
+            right: -7px;
+        }
+        .icon-btn {
+            width: 35px !important;
+            height: 35px !important;
+            i {
+                font-size: 1.25rem;
+            }
+        }
+        .iron-sidebar-nav-wrap,
+        .iron-search-box {
+            display: none;
+        }
+    }
+    
+    .f-left {
+        float: left;
+    }
+    
+    .f-right {
+        float: right;
+    }
+    
+    .symbol-description {
+        font-size: 2.125rem;
+        line-height: 2.5rem;
+        color: rgba(0, 0, 0, 0.87);
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    
+    .confirm-btn:hover {
+        background-color: #FF5722 !important;
+    }
+    
+    .confirm-btn:hover span {
+        color: #fff !important;
+    }
+    
+    .iron-header-menu>li:last-child a {
+        background: none;
+    }
+    
+    .white_bg {}
+    
+    .red_bg {
+        background-color: #FF5722 !important;
+    }
+    
+    .adminpart_image img {
+        height: 150px;
+        vertical-align: middle;
+        margin-top: 45px;
+        width: auto;
+    }
+    
+    .ReactTable .rt-thead .rt-resizable-header-content {
+        font-size: 15px;
+    }
+    
+    .total-label {
+        display: inline-block;
+    }
+    
+    .product-values .iron-select-width2 {
+        width: 200px !important;
+    }
+    
+    .width-100 {
+        width: 100%;
+    }
+    
+    .iron-product-add-wrap .fileUploader .chooseFileButton:after,
+    .iron-product-edit-wrap .fileUploader .chooseFileButton:after {
+        font-family: 'Material-Design-Iconic-Font';
+        content: "\F158";
+        color: #283593;
+        background-color: #fff;
+        height: 60px !important;
+        width: 60px !important;
+        display: block;
+        border-radius: 100%;
+        line-height: 52px !important;
+        font-size: 40px !important;
+        margin: 0 auto;
+    }
+    
+    .transform-none {
+        text-transform: none !important;
+    }
+    
+    .iron-product-add-wrap .add-product-input input,
+    .iron-product-edit-wrap .add-product-input input {
+        text-transform: none !important;
+    }
+    
+    .iron-user-info-wrap .user-basic-info .profile-field span {
+        text-transform: none !important;
+    }
+    /************** Responsive ************************/
+    
+    @media only screen and (max-width: 1199px) {
+        .iron-header-v2 .iron-sidebar-nav-wrap,
+        .iron-header-v2 .iron-search-box {
+            display: none !important;
+        }
+    }
